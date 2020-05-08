@@ -10,10 +10,10 @@ import { Component, OnInit } from '@angular/core';
       este es otro template
     </p>
     <button class="btn btn-primary" (click)="tamano = tamano + 5">
-      Mas<i class="fa fa-plus"></i>
+      <i class="fa fa-plus"></i>
     </button>
     <button class="btn btn-primary" (click)="tamano = tamano - 5">
-      Menos<i class="fa fa-minus"></i>
+      <i class="fa fa-minus"></i>
     </button>
   `,
   styles: []
